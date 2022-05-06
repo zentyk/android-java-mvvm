@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Mvvmtest"
         tools:targetApi="31">
         <activity
+            android:name=".ui.LiveDataBinding"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DataBindingActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.LiveDataActivity"
             android:exported="false" />
         <activity

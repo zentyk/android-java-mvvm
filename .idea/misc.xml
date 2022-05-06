@@ -7,6 +7,10 @@
         <entry key="..\:/Users/artur/AndroidStudioProjects/mvvmtest/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/Users/artur/AndroidStudioProjects/mvvmtest/app/src/main/res/layout/activity_user.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/artur/AndroidStudioProjects/mvvmtest/app/src/main/res/layout/activity_view_model.xml" value="0.358695652173913" />
+        <entry key="..\:/dev/_tests/android-java-mvvm/app/src/main/res/layout/activity_data_binding.xml" value="0.358695652173913" />
+        <entry key="..\:/dev/_tests/android-java-mvvm/app/src/main/res/layout/activity_dblabinding.xml" value="0.18541666666666667" />
+        <entry key="..\:/dev/_tests/android-java-mvvm/app/src/main/res/layout/activity_dbldactivity.xml" value="0.18541666666666667" />
+        <entry key="..\:/dev/_tests/android-java-mvvm/app/src/main/res/layout/activity_live_data_binding.xml" value="0.18541666666666667" />
       </map>
     </option>
   </component>

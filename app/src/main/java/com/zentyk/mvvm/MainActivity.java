@@ -1,13 +1,14 @@
 package com.zentyk.mvvm;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.zentyk.mvvm.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.zentyk.mvvm.ui.DataBindingActivity;
 import com.zentyk.mvvm.ui.LiveDataActivity;
+import com.zentyk.mvvm.ui.LiveDataBinding;
 import com.zentyk.mvvm.ui.UserActivity;
 import com.zentyk.mvvm.ui.ViewModelActivity;
 
@@ -44,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), LiveDataActivity.class));
         });
         btDataBinding.setOnClickListener(v -> {
-            //startActivity(new Intent(getApplicationContext(), DataBindingActivity.class));
+            startActivity(new Intent(getApplicationContext(), DataBindingActivity.class));
         });
         btDBLABinding.setOnClickListener(v -> {
-            //startActivity(new Intent(getApplicationContext(), DBLABindingActivity.class));
+            startActivity(new Intent(getApplicationContext(), LiveDataBinding.class));
         });
     }
 }
